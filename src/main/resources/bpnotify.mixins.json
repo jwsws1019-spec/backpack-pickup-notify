@@ -1,0 +1,13 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "io.github.bpnotify.mixin",
+  "refmap": "bpnotify.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MagnetUpgradeWrapperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
